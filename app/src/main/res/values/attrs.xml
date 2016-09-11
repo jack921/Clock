@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--钟表整体颜色-->
+    <attr name="color" format="color"/>
+    <!--数字大小-->
+    <attr name="numSize" format="dimension"/>
+    <!--中心外圆半径-->
+    <attr name="inCircle" format="integer"/>
+    <!--中心内圆半径-->
+    <attr name="outCircle" format="integer"/>
+
+    <declare-styleable name="ClockView">
+        <attr name="numSize"/>
+        <attr name="color"/>
+        <attr name="inCircle"/>
+        <attr name="outCircle"/>
+    </declare-styleable>
+
+</resources>
